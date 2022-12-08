@@ -16,6 +16,6 @@ import { CommonModule } from '../common/common.module';
        },
     ]), 
    CommonModule
-  ]
-})
+  ],
+  exports:[MongooseModule]})
 export class PokemonModule {}
